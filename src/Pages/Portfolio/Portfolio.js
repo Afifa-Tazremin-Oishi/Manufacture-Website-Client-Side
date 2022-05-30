@@ -20,13 +20,13 @@ const Portfolio = () => {
                         <h3>EDUCATION</h3>
                         <p>2019 – 2022
                             <br />
-                            American Internation University Bangladesh <br />
+                            American Internation University Bangladesh,AIUB <br />
                             Dhaka, Bangladesh
                         </p>
                     </div>
 
                     <div className='expertise-container'>
-                        <h4 className='text-3xl'>Comfortable With</h4>
+                        <h4 className='text-3xl'>Basic Skill</h4>
 
                         <p className='my-1'>HTML5, CSS3, Bootstrap5, Tailwind, DaisyUI, Javascript, ReactJS, MongoDB, REST API, NodeJS, and ExpressJS
                         </p>
