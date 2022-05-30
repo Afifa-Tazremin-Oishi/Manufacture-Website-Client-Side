@@ -8,13 +8,13 @@
  An admin can able to change the status of a placed order.
  This app also used firebase authentication. Email/password login, Google login
 ## A list of technologies (frameworks, libraries) used in this project.
- React
- React Router Dom
- React Firebase Hooks
- Firebase
- Font Awesome
- mongodb
- Node
- Express
- DaisyUI
+- React
+- React Router Dom
+- React Firebase Hooks
+- Firebase
+- Font Awesome
+- mongodb
+- Node
+- Express
+- DaisyUI
 
