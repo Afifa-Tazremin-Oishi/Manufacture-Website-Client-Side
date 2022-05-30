@@ -1,0 +1,40 @@
+.banner-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 50px;
+    padding: 0 100px;
+    padding-top: 90px;
+}
+
+.banner-title {
+    font-family: 'Playfair Display', serif;
+    color: #fa4318;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+.banner-text {
+    margin-top: 20px;
+    letter-spacing: 1px;
+    line-height: 1.8em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner-img img {
+    width: 90%;
+}
+
+
+@media screen and (max-width: 576px) {
+    .banner-body {
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+        padding: 0 16px;
+        padding-top: 50px;
+    }
+}

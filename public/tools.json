@@ -1,0 +1,62 @@
+[
+    {
+        "_id": 1,
+        "name": "Hack Saw",
+        "price": 200,
+        "minimum": 200,
+        "available": 1000,
+        "supplier": "Ferdinand",
+        "description": "Apple is stocked here with much care. Our Expert team try to store the fruits in that way where customers can get the good quality.",
+        "img": "https://i.ibb.co/606KG6q/apple.png"
+    },
+    {
+        "_id": 2,
+        "name": "Hammer",
+        "price": 200,
+        "minimum": 200,
+        "available": 1000,
+        "supplier": "Ferdinand",
+        "description": "Apple is stocked here with much care. Our Expert team try to store the fruits in that way where customers can get the good quality.",
+        "img": "https://i.ibb.co/606KG6q/apple.png"
+    },
+    {
+        "_id": 3,
+        "name": "Electric Saw",
+        "price": 200,
+        "minimum": 200,
+        "available": 1000,
+        "supplier": "Ferdinand",
+        "description": "Apple is stocked here with much care. Our Expert team try to store the fruits in that way where customers can get the good quality.",
+        "img": "https://i.ibb.co/606KG6q/apple.png"
+    },
+    {
+        "_id": 4,
+        "name": "Pliers",
+        "price": 200,
+        "minimum": 200,
+        "available": 1000,
+        "supplier": "Ferdinand",
+        "description": "Apple is stocked here with much care. Our Expert team try to store the fruits in that way where customers can get the good quality.",
+        "img": "https://i.ibb.co/606KG6q/apple.png"
+    },
+    {
+        "_id": 5,
+        "name": "Glue Gun",
+        "price": 200,
+        "minimum": 200,
+        "available": 1000,
+        "supplier": "Ferdinand",
+        "description": "Apple is stocked here with much care. Our Expert team try to store the fruits in that way where customers can get the good quality.",
+        "img": "https://i.ibb.co/606KG6q/apple.png"
+    },
+    {
+        "_id": 6,
+        "name": "Measurement Tape",
+        "price": 200,
+        "minimum": 200,
+        "available": 1000,
+        "supplier": "Ferdinand",
+        "description": "Apple is stocked here with much care. Our Expert team try to store the fruits in that way where customers can get the good quality.",
+        "img": "https://i.ibb.co/606KG6q/apple.png"
+    }
+]

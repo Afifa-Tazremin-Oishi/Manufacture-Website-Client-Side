@@ -1,0 +1,118 @@
+.review-section {
+    box-shadow: 0 4px 20px rgb(0 0 0 / 10%);
+    margin-right: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.add-review-container {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+
+
+.review-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.53125rem;
+    line-height: 1.2;
+    color: #383838;
+    padding: 18px 40px;
+}
+
+.review-form {
+    height: 466px;
+    padding: 20px;
+    position: relative;
+    border-radius: 18px;
+    background-color: #fff;
+}
+
+.review-form form label {
+    font-family: 'Poppins', sans-serif;
+    color: #646464;
+    font-size: 12px;
+    line-height: 18px;
+    padding-left: 33px;
+}
+
+
+/* form */
+.review-input-field {
+    width: 90%;
+    display: block;
+    margin: 8px auto;
+    margin-bottom: 14px;
+    padding: 10px 16px;
+    border-radius: 60px;
+    border: 1px solid #d6d6d6;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    outline: rgb(255, 220, 220);
+}
+
+.address-input-field {
+    width: 90%;
+    display: block;
+    margin: 8px auto;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #d6d6d6;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    outline: rgb(255, 220, 220);
+}
+
+.address-input-field:focus {
+    border-color: #febd17;
+    box-shadow: 0 0 0 3px rgb(254 189 23 / 25%);
+    color: rgb(104, 104, 104);
+}
+
+.review-input-field:focus {
+    border-color: #febd17;
+    box-shadow: 0 0 0 3px rgb(254 189 23 / 25%);
+    color: rgb(104, 104, 104);
+}
+
+.confirm-btn {
+    display: block;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 83%;
+    position: absolute;
+    bottom: 13px;
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+    .review-section {
+        box-shadow: 0 4px 20px rgb(0 0 0 / 10%);
+        margin: 16px;
+        border-radius: 10px;
+    }
+
+    .add-review-container {
+        width: 100%;
+    }
+
+    .address-input-field {
+        width: 100%;
+    }
+
+    .review-form form label {
+        padding-left: 10px;
+    }
+
+
+    .review-input-field {
+        width: 100%;
+    }
+}

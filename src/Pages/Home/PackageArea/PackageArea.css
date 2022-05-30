@@ -1,0 +1,24 @@
+.package-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 40px;
+}
+
+.package-container .package {
+    border-radius: 26px;
+}
+
+
+
+
+/* ============= Media Query ============ */
+/* ====================================== */
+
+/* ==== Mobile Device ==== */
+
+@media only screen and (max-width: 768px) {
+    .package-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 50px;
+    }
+}

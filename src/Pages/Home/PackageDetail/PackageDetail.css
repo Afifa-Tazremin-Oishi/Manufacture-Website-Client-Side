@@ -1,0 +1,38 @@
+.icon-style {
+    size: 20px;
+    color: #220768;
+    border-radius: 15px;
+    background-color: #22076827;
+}
+
+.button-link-2 {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    outline: none;
+}
+
+.highlighted .icon-style {
+    size: 20px;
+    color: white;
+    border-radius: 15px;
+    background-color: #120600;
+}
+
+.highlighted .button-link-2 {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: center;
+    background-color: white;
+    color: #220768;
+    padding: 5px 15px;
+    border: none;
+    outline: none;
+}

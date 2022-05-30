@@ -1,0 +1,116 @@
+.my-profile-section {
+    box-shadow: 0 4px 20px rgb(0 0 0 / 10%);
+    margin-right: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.my-profile-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 80px;
+}
+
+
+.profile-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.53125rem;
+    line-height: 1.2;
+    padding: 18px 40px;
+}
+
+.my-profile-form {
+    height: 620px;
+    padding: 20px;
+    position: relative;
+    border-radius: 18px;
+    background-color: #fff;
+}
+
+.my-profile-form form label {
+    font-family: 'Poppins', sans-serif;
+    color: #646464;
+    font-size: 12px;
+    line-height: 18px;
+    padding-left: 40px;
+}
+
+
+/* form */
+.my-profile-input-field {
+    width: 90%;
+    display: block;
+    margin: 8px auto;
+    margin-bottom: 14px;
+    padding: 7px 16px;
+    border-radius: 60px;
+    border: 1px solid #d6d6d6;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    outline: rgb(255, 220, 220);
+}
+
+.address-input-field {
+    width: 90%;
+    display: block;
+    margin: 8px auto;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #d6d6d6;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    outline: rgb(255, 220, 220);
+}
+
+.address-input-field:focus {
+    border-color: #febd17;
+    box-shadow: 0 0 0 3px rgb(254 189 23 / 25%);
+    color: rgb(104, 104, 104);
+}
+
+.my-profile-input-field:focus {
+    border-color: #febd17;
+    box-shadow: 0 0 0 3px rgb(254 189 23 / 25%);
+    color: rgb(104, 104, 104);
+}
+
+.confirm-btn {
+    display: block;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 83%;
+    position: absolute;
+    bottom: 13px;
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+    .my-profile-section {
+        box-shadow: 0 4px 20px rgb(0 0 0 / 10%);
+        margin: 16px;
+        border-radius: 10px;
+    }
+
+    .my-profile-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+
+    .my-profile-form form label {
+        padding-left: 25px;
+    }
+
+
+    .my-profile-input-field {
+        width: 91%;
+    }
+}

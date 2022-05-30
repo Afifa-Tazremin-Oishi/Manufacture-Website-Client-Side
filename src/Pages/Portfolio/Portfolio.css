@@ -1,0 +1,53 @@
+.profile-section {
+    padding: 50px 200px;
+    background-color: #222a35;
+}
+
+.profile-container {
+    padding: 30px 20px;
+    border-radius: 18px;
+    background-color: #fff;
+}
+
+.profile-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    grid-gap: 100px;
+}
+
+.know-me {
+    padding: 16px;
+    border-radius: 18px;
+    color: #fff;
+}
+
+.expertise-container {
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.expertise-container a {
+    text-decoration: underline;
+    color: #1877f2;
+}
+
+
+@media screen and (max-width: 576px) {
+    .profile-section {
+        padding: 20px 10px;
+    }
+
+    .profile-container {
+        padding: 16px;
+    }
+
+    .profile-content {
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+    }
+
+    .know-me {
+        border-radius: 18px;
+    }
+}
