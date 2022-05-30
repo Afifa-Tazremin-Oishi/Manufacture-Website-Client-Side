@@ -26,7 +26,7 @@ const AddProduct = () => {
       price: event.target.price.value,
     };
 
-    fetch("https://infinite-lake-36259.herokuapp.com/tools", {
+    fetch("https://aqueous-savannah-68941.herokuapp.com/tools", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

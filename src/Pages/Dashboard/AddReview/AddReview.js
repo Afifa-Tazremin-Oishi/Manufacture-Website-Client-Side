@@ -20,7 +20,7 @@ const AddReview = () => {
 
     console.log(review);
 
-    fetch("https://infinite-lake-36259.herokuapp.com/review", {
+    fetch("https://aqueous-savannah-68941.herokuapp.com/review", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

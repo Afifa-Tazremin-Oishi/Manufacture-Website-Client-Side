@@ -19,7 +19,7 @@ const Purchase = () => {
   // fetch data
 
   useEffect(() => {
-    const url = `https://infinite-lake-36259.herokuapp.com/tools/${id}`;
+    const url = `https://aqueous-savannah-68941.herokuapp.com/tools/${id}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setTool(data));
@@ -45,7 +45,7 @@ const Purchase = () => {
       address: event.target.address.value,
     };
 
-    fetch("https://infinite-lake-36259.herokuapp.com/orders", {
+    fetch("https://aqueous-savannah-68941.herokuapp.com/orders", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -71,7 +71,7 @@ const Purchase = () => {
         const updatedItem = { quantity };
 
         // update data to server
-        const url = `https://infinite-lake-36259.herokuapp.com/tools/${_id}`;
+        const url = `https://aqueous-savannah-68941.herokuapp.com/tools/${_id}`;
 
         fetch(url, {
           method: "PUT",

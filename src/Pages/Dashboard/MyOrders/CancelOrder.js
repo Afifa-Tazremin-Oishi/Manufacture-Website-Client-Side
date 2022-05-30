@@ -12,7 +12,7 @@ const CancelOrder = ({ orders, setOrders, order, setOrder }) => {
 
   // handle delete button
   const handleDelete = (id) => {
-    const url = `https://infinite-lake-36259.herokuapp.com/orders/${id}`;
+    const url = `https://aqueous-savannah-68941.herokuapp.com/orders/${id}`;
     fetch(url, {
       method: "DELETE",
     })

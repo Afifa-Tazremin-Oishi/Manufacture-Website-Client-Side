@@ -9,7 +9,7 @@ const useAdmin = (user) => {
     const email = user?.email;
 
     if (email) {
-      fetch(`https://infinite-lake-36259.herokuapp.com/admin/${email}`, {
+      fetch(`https://aqueous-savannah-68941.herokuapp.com/admin/${email}`, {
         method: "GET",
         headers: {
           "content-type": "application/json",

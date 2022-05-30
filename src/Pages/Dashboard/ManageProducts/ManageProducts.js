@@ -12,7 +12,7 @@ const ManageProducts = () => {
     isLoading,
     refetch,
   } = useQuery("tools", () =>
-    fetch("https://infinite-lake-36259.herokuapp.com/tools", {
+    fetch("https://aqueous-savannah-68941.herokuapp.com/tools", {
       headers: {
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,
       },
