@@ -9,7 +9,7 @@ import icon4 from '../../../images/icon (4).png';
 const Summary = () => {
 
     return (
-        <section className='bg-primary summaries-section text-white'>
+        <section className='bg-slate-600bg-slate-600 summaries-section text-white'>
             <div className='py-10'>
                 <h1 className='text-center text-4xl font-bold'>MILLIONS BUSSINESS TRUST US</h1>
                 <h3 className='text-center text-2xl my-3'>TRY TO UNDERSTAND USER EXPECTATION</h3>

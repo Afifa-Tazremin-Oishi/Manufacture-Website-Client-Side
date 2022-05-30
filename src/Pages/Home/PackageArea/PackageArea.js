@@ -8,7 +8,7 @@ const PackageArea = () => {
         <section className="container shadow-sm py-5">
             <div className="title-text pt-3">
                 <h1 className='text-center text-4xl text-secondary font-bold'>Packages</h1>
-                <h3 className='text-center text-2xl my-3'>Our Offered Packages</h3>
+                <h3 className='text-center text-2xl my-3'>Our Packages</h3>
             </div>
             <div className='package-container my-5'>
                 <div className="shadow package card h-100 px-3 mx-3 border-0 pt-5">
