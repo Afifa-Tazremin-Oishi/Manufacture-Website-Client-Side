@@ -34,14 +34,13 @@ const Portfolio = () => {
                         <p className='my-1'>Material UI,Python, Axios, Heroku and WordPress
 
                         </p>
-                        <h4 className='text-3xl mt-4'>Toolsr</h4>
-                        <p className='my-1'>Git,Github,Netlify,Heroku</p>
+                        
 
                         <h3 className='text-3xl mt-4 mb-1'>BEST LIVE WEBSITE LINK</h3>
 
-                        <p><a target={`_blank`} href="https://warehouse-management-sys-4df86.web.app/">Bangla Motor LTD</a></p>
-                        <p><a target={`_blank`} href="https://action-legal-care.web.app/">Action Legal Care</a></p>
-                        <p><a target={`_blank`} href="https://eloquent-marigold-ec1e81.netlify.app/">Laptop Review Website</a></p>
+                        <p><a target={`_blank`} href=" https://stalwart-cendol-9001d9.netlify.app/">Photography</a></p>
+                        <p><a target={`_blank`} href=" https://the-artsy-lens-ed44e.web.app/">The Artsy Lens</a></p>
+                        <p><a target={`_blank`} href="https://fruits-management-system-72a13.web.app">Grab Grocers</a></p>
                     </div>
                 </div>
 
